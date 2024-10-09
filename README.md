@@ -10,3 +10,10 @@ Install Laravel
 9. login pakai akun
     email   : admin@gmail.com
     password: admin
+
+10. Doc API
+    a. POST http://127.0.0.1:8000/api/login
+    b. GET http://127.0.0.1:8000/api/poster?page=1&perPage=10
+    c. POST http://127.0.0.1:8000/api/poster
+    d. PUT http://127.0.0.1:8000/api/poster
+    e. DELETE http://127.0.0.1:8000/api/poster
