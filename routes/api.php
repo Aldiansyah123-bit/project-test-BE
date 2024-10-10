@@ -19,8 +19,5 @@ use Illuminate\Support\Facades\Route;
 Route::post('login', [AuthController::class, 'login']);
 
 Route::middleware('auth:sanctum')->group(function () {
-    Route::get('poster',[PosterController::class, 'index']);
-    Route::post('poster',[PosterController::class, 'store']);
-    Route::put('poster',[PosterController::class, 'update']);
-    Route::delete('poster',[PosterController::class, 'destroy']);
+    Route::resource('poster', PosterController::class);
 });

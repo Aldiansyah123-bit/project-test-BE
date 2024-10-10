@@ -69,7 +69,7 @@ class PosterController extends Controller
     {
         $validator  = Validator::make($request->all(), [
             'title'             =>  'required',
-            'publishing_year'   =>  'required|number'
+            'publishing_year'   =>  'required|numeric'
         ]);
 
         if ($validator->fails()) {

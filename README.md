@@ -17,3 +17,4 @@ Install Laravel
     c. POST http://127.0.0.1:8000/api/poster
     d. PUT http://127.0.0.1:8000/api/poster
     e. DELETE http://127.0.0.1:8000/api/poster
+    f. https://documenter.getpostman.com/view/29869346/2sAXxQdsD6
